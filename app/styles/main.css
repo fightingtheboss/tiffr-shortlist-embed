@@ -1,0 +1,37 @@
+/*****************************************************************************
+  tiffr-shortlist-embed
+******************************************************************************/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+img {
+    max-width: 100%;
+}
+
+.film-header {
+    margin: 0;
+    position: relative;
+}
+
+.tiffr-shortlist {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
