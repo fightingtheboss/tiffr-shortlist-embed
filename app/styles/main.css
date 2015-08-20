@@ -31,7 +31,7 @@ img {
 }
 
 .tiffr-shortlist {
-    position: absolute;
+    position: absolute !important;
     bottom: 1rem;
     right: 1rem;
 }
