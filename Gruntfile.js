@@ -44,7 +44,7 @@ module.exports = function (grunt) {
             gruntfile: {
                 files: ['Gruntfile.js']
             },
-            
+
             styles: {
                 files: ['<%= config.app %>/styles/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
@@ -227,7 +227,7 @@ module.exports = function (grunt) {
           },
           pages: {
             options: {
-              remote: '!!! PASTE YOUR GITHUB REPO URL HERE',
+              remote: 'git@github.com:fightingtheboss/tiffr-shortlist-embed.git',
               branch: 'gh-pages'
             }
           },
@@ -239,19 +239,19 @@ module.exports = function (grunt) {
           }
         },
 
-        // 
+        //
 
         // Run some tasks in parallel to speed up build process
         concurrent: {
             server: [
-              
+
                 'copy:styles'
             ],
             test: [
                 'copy:styles'
             ],
             dist: [
-              
+
                 'copy:styles'
             ]
         }
@@ -297,7 +297,7 @@ module.exports = function (grunt) {
         'concurrent:dist',
         'autoprefixer',
         'copy:dist',
-        'useminPrepare', // 
+        'useminPrepare', //
         'concat',
         'cssmin',
         'uglify',
