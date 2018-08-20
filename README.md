@@ -13,7 +13,7 @@ Implementation of the widget involves two steps:
 The script tag only needs to be loaded once with the rest of your assets, per page where films can be favourited. You'll need to identify the year of the festival as a data attribute, as seen in the example below:
 
 ```javascript
-<script src="http://2016.rushline.io/assets/widget.js" data-tiffr-festival="2016"></script>
+<script src="https://tiffr.com/assets/widget.js" data-tiffr-festival="2017"></script>
 ```
 
 ### Add a link to each film
@@ -21,8 +21,10 @@ The script tag only needs to be loaded once with the rest of your assets, per pa
 Add a `<a>` tag to each film module where you want the shortlist heart to appear. The tag should have a class of `tiffr-shortlist` and a data-attribute identifying the id of the film.
 
 ```javascript
-<a href="#" class="tiffr-shortlist" data-show-id="19"></a>
+<a href="#" class="tiffr-shortlist" data-show-id="W000096151"></a>
 ```
+
+The above example would add a shortlist heart for *Faces Places*.
 
 #### Styling
 
