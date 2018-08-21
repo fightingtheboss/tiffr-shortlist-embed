@@ -2,7 +2,7 @@
 
 A small prototype showing off the TIFFR embed widget
 
-http://fightingtheboss.github.io/tiffr-shortlist-embed/
+https://tiffr-shortlist-widget.netlify.com/
 
 ## Implementation
 
