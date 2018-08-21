@@ -37,18 +37,11 @@ The main classes you'll need are:
 
 ## Running this demo app locally
 
-### Pre-requisites
-- [NodeJS](https://nodejs.org)
-- [Grunt](http://gruntjs.com)
-- [Bower](http://bower.io)
-- [Yeoman](http://yeoman.io)
-
-1. Install NodeJS via the installer at the above link or via [homebrew](http://brew.sh/) or [nvm](https://github.com/creationix/nvm) if on Mac OS
-2. Run `npm install -g grunt-cli bower yo`
+1. Install some kind of web server for convenience, we recommend serve `yarn global add serve`.
+2. run `serve` and navigate to /app.
 
 ### Setup
 
 1. Clone this repository
 2. Change into the project directory (`cd tiffr-shortlist-embed`)
-3. Run `npm install && bower install`
-4. Run `grunt`
+3. Open /app in a browser or use a simple server (see above) to serve it.
