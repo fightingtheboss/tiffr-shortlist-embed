@@ -31,8 +31,12 @@ img {
     position: relative;
 }
 
+.film-details {
+  position: relative;
+}
+
 .tiffr-shortlist {
-    position: absolute !important;
+/*    position: absolute !important;
     bottom: 1rem;
-    right: 1rem;
+    right: 1rem;*/
 }
