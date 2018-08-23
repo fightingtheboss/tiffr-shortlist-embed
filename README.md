@@ -2,7 +2,7 @@
 
 A small prototype showing off the TIFFR embed widget
 
-https://tiffr-shortlist-widget.netlify.com/
+https://fightingtheboss.github.io/tiffr-shortlist-embed/
 
 ## Implementation
 
@@ -18,13 +18,13 @@ The script tag only needs to be loaded once with the rest of your assets, per pa
 
 ### Add a link to each film
 
-Add a `<a>` tag to each film module where you want the shortlist heart to appear. The tag should have a class of `tiffr-shortlist` and a data-attribute identifying the id of the film.
+Add a `<a>` tag to each film module where you want the shortlist heart to appear. The tag should have a class of `tiffr-shortlist` and a data-attribute identifying the id of the film (in your system).
 
 ```javascript
 <a href="#" class="tiffr-shortlist" data-show-id="W000096151"></a>
 ```
 
-The above example would add a shortlist heart for *Faces Places*.
+The above example would add a shortlist heart for *Faces Places* (from TIFF17).
 
 #### Styling
 
